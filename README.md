@@ -25,26 +25,26 @@ Tasks/Activities List
 Simple Python Flask API that will return Hello message during API call.
 Refer Dockerfile for instructions under project directory
 
-###Step 1: Wrote simple 'hello-world-python' application
-###Step 2: Build Image >> $docker build -t anitharajam/hello-world-python:1.0 .
-###Step 3: Push Image to Repository >>  $docker push anitharajam/hello-world-python:1.0
-###Step 4: Run the docker image >> docker run -p 6000:5000 anitharajam/hello-world-python:1.0
-##CLI output:
-anithar@Anithas-MacBook-Pro hello-world-python % docker run -p 6000:5000 anitharajam/hello-world-python:1.0
- * Serving Flask app 'launch'
- * Debug mode: on
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.17.0.3:5000
-Press CTRL+C to quit
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 136-583-677
-###Step 5: Test application
-##CLI Test result ouput below . Same URL can be validated via browser 
-anithar@Anithas-MacBook-Pro hello-world-python % curl http://127.0.0.1:6000
-{"message":"Hello World Python v1"}%      
+###Step 1: Wrote simple 'hello-world-python' application <br/>
+###Step 2: Build Image >> $docker build -t anitharajam/hello-world-python:1.0 .<br/>
+###Step 3: Push Image to Repository >>  $docker push anitharajam/hello-world-python:1.0<br/>
+###Step 4: Run the docker image >> docker run -p 6000:5000 anitharajam/hello-world-python:1.0<br/>
+##CLI output:<br/>
+anithar@Anithas-MacBook-Pro hello-world-python % docker run -p 6000:5000 anitharajam/hello-world-python:1.0<br/>
+ * Serving Flask app 'launch'<br/>
+ * Debug mode: on<br/>
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.<br/>
+ * Running on all addresses (0.0.0.0)<br/>
+ * Running on http://127.0.0.1:5000<br/>
+ * Running on http://172.17.0.3:5000<br/>
+Press CTRL+C to quit<br/>
+ * Restarting with stat<br/>
+ * Debugger is active!<br/>
+ * Debugger PIN: 136-583-677<br/>
+###Step 5: Test application<br/>
+##CLI Test result ouput below . Same URL can be validated via browser <br/>
+anithar@Anithas-MacBook-Pro hello-world-python % curl http://127.0.0.1:6000<br/>
+{"message":"Hello World Python v1"}%      <br/>
 
    
 
